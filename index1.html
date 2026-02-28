@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0 ;
+            padding: 0;
+        }
+       
+        .header {
+            max-width: 1150px;
+            height: 52.19px;
+            margin-top: 27px;
+            margin-left: 145px;
+            margin-right: 145px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+           
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .logo {
+            display: flex;
+            justify-content: flex-start;
+            gap: 5px;
+            
+            
+            
+        }
+        .logo1 {
+            width: 41.88px;
+            height: 41.96px;
+            color: rgba(1, 2, 2, 1);
+        }
+        .logotext {
+            font-size: large;
+            letter-spacing: 0%;
+            font-weight: 700;
+            font-family: "Roboto", sans-serif;
+ 
+ 
+
+        }
+        .menu {
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 15px ;
+          
+            
+        }
+        .menu,
+        .login1,
+        .expert,
+        .ttu {
+            text-decoration: none;
+        }
+        .menu {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 16.2px;
+            letter-spacing: 0%;
+            font-family: "Roboto", sans-serif;
+            color: rgba(0, 0, 0, 1);
+        }
+        .login {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+        .login1 {
+            width: 96px;
+            height: 52px;
+           background: transparent;
+           border: 1px solid rgba(0, 0, 0, 1);
+           border-radius: 50px;
+           cursor: pointer;
+           font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font: 18px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+             display: flex;
+             justify-content: center;
+             align-items: center;
+
+        }
+        .expert {
+            padding: 10px 24px;
+            background: rgba(0, 0, 0, 1);
+            color: rgba(255, 255, 255, 1);
+            border: none;
+            border-radius: 999px;
+             font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 18px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+
+            
+        }
+        .section {
+            max-width: 1150px;
+            height: 576px;
+            margin-top: 27px;
+            margin-left: 145px;
+            margin-right: 145px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+           
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            padding-left: 0;
+            padding-right: 0;
+           
+        }
+        .information {
+            width: 483px;
+            height: 504px;
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .btext {
+            padding-top: 27.81px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 77px;
+             line-height: 82.8px;
+             letter-spacing: 0%;
+            
+             color: rgba(0, 0, 0, 1);
+        }
+        .ktext {
+            padding-top: 27.81px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 20px;
+             line-height: 30.6px;
+             letter-spacing: 0%;
+             
+             color:rgba(0, 0, 0, 1) ;
+        }
+        .nav {
+            display: flex;
+            flex-direction: column;
+            width: 483px;
+            height: 112px;
+            margin-top: 74px;
+           
+            
+           
+        }
+        .ntext {
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 18px;
+             line-height: 24px;
+             letter-spacing: 0%;
+             color:rgba(0, 0, 0, 1) ;
+
+        }
+        .ttu {
+            width: 159px;
+            height: 61px;
+            padding: 17px 31px;
+            background: rgba(0, 0, 0, 1);
+            color: rgba(255, 255, 255, 1);
+            border: none;
+            border-radius: 999px;
+             font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 22px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-top: 25px;
+
+        }
+        .photo1 {
+            width: 667px;
+            height: 517px;
+            margin-top: -31.19px;
+            margin-left: 50px;
+        }
+        .section2 {
+            max-width: 1150px;
+            height: 507px;
+            margin-top: 54px;
+            margin-left: 145px;
+            margin-right: 145px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+           
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            padding-left: 0;
+            padding-right: 0;
+            
+
+        }
+        .photo2 {
+            width: 483px;
+            height: 280px;
+            margin-top: 83.81px;
+      
+        }
+        .information2 {
+            width: 563.5px;
+            height: 345px;
+            padding-top: 54px;            
+            display: flex;
+            flex-direction: column;
+        }
+        .btext2 {
+             padding-top: -2.19px;
+             padding-left: 0.5px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 57px;
+             line-height: 57.6px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .ktext2 {
+            margin-top: 33px;
+            padding-top: -3.19px;
+             padding-left: 0.5px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 20px;
+             line-height: 30.6px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .underline {
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 20px;
+             line-height: 30.6px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+             text-decoration: underline;
+             font-style: solid;
+             offset: 0%;
+             text-decoration-thickness: 0%;
+             color: #0645ad;
+        }
+        .section3 {
+            max-width: 1150px;
+            height: 737.3px;
+            margin-top: 54.19px;
+            margin-left: 145px;
+            margin-right: 145px;
+            
+        }
+        .btext3 {
+            padding-top: 33.81px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 58px;
+             line-height: 57.6px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .content {
+            width: 1035px;
+            height: 396.11px;
+            margin-top: 111px;
+            display: flex;
+            justify-content: flex-start;
+            gap: 80px;
+            flex-direction: row;
+        }
+        .content1 {
+            width: 308.95px;
+            height: 333.11px;
+           
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .photo3 {
+            width: 200px;
+            height: 150px;
+            margin-top: -0.19px;
+        }
+        .btext4 {
+            padding-top: 10px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 28px;
+             line-height: 36px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .ktext3 {
+            padding-top: 5px;
+            
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 18px;
+             line-height: 24px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .underline2 {
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 18px;
+             line-height: 24px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+             text-decoration: underline;
+             font-style: solid;
+             offset: 0%;
+             text-decoration-thickness: 0%;
+             color: #0645ad;
+        }
+        .content2 {
+             width: 308.95px;
+            height: 333.11px;
+           
+           
+            display: flex;
+            flex-direction: column;
+        }
+        .photo4 {
+             width: 200px;
+            height: 150px;
+            margin-top: -0.19px;
+        }
+        .btext5 {
+             padding-top: 10px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 28px;
+             line-height: 36px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .ktext4 {
+            padding-top: 5px;
+            
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 18px;
+             line-height: 24px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .content3 {
+            width: 308.95px;
+            height: 333.11px;
+           
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .btext6 {
+             padding-top: 10px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 28px;
+             line-height: 36px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .ktext5 {
+            padding-top: 10px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 18px;
+             line-height: 24px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .photo5 {
+            width: 200px;
+            height: 150px;
+            margin-top: -0.19px;
+        }
+        .ttu2 {
+            width: 235px;
+            height: 50px;
+            padding: 12px 31px;
+            background: rgb(251, 114, 121);
+            color: rgba(255, 255, 255, 1);
+            border: none;
+            border-radius: 100px;
+             font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 18px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-bottom: 126.48px;
+             text-decoration: none;
+        
+        }
+       
+        .section4 {
+            max-width: 1150px;
+            height: 650.48px;
+            margin-top: 54.48px;
+            margin-left: 145px;
+            margin-right: 145px;
+            
+            background: rgba(253, 236, 237, 1) ;
+        }
+        .content4 {
+             width: 308.95px;
+            height: 404.97px;
+            margin-top: 82.48px;
+            
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .btext7 {
+            width: 557px;
+            height: 58px;
+             padding-top: 88px;
+           
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 58px;
+             line-height: 57.6px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .photo6 {
+            width: 309px;
+            height: 174px;
+            margin-top: -0.48px;
+        }
+        .btext8 {
+             width: 254px;
+            height: 36px;
+            margin-top: 24px;
+       
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 28px;
+             line-height: 36px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .ktext6 {
+            margin-top: 10px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 18px;
+             line-height: 24px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .content5 {
+            width: 308.95px;
+            height: 404.97px;
+            margin-top: 82.48px;
+            margin-left: 54.06px;;
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .inform {
+            width: 1035px;
+            height: 467.97px;
+           
+            display: flex;
+            flex-direction: row;
+            margin-top: 111px;
+            
+        }
+        .photo7 {
+            width: 309px;
+            height: 174px;
+            margin-top: -0.48px;
+            margin-left: -0.02px;
+        }
+        .btext9 {
+            width: 104px;
+            height: 36px;
+            margin-top: 24px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 27px;
+             line-height: 36px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .ktext7 {
+             margin-top: 10px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 18px;
+             line-height: 24px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+            }
+        .content6 {
+            width: 308.97px;
+            height: 404.97px;
+            margin-top: 82.48px;
+            margin-left: 54.06px;;
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .photo8 {
+            width: 309px;
+            height: 174px;
+            margin-top: -0.48px;
+            margin-left: -0.03px;
+        }
+        .btext10 {
+             width: 178px;
+            height: 36px;
+            margin-top: 24px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 29px;
+             line-height: 36px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .ktext8 {
+            margin-top: 10px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 18px;
+             line-height: 24px;
+             letter-spacing: 0%;
+             color: rgba(0, 0, 0, 1);
+        }
+        .glav {
+            max-width: 100%;
+            height: 705px;
+            background:rgba(253, 236, 237, 1) ;
+        }
+        .footer {
+            width: 1035px;
+            height: 450px;
+            margin-top: 106.45px ;
+            margin-left: 145px;
+            margin-right: 260px;
+           
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .infotext {
+            width: 236px;
+            height: 72px;
+            margin-top: 92.55px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 36px;
+            letter-spacing: 0%;
+            color: rgba(0, 0, 0, 1);
+        }
+        .logos {
+            width: 700px;
+            height: 360px;
+            margin-top: 72px;
+            
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 33px;
+            column-gap: 36px
+        }
+        .logophoto {
+            width: 200px;
+            height: 84px;
+        }
+        .footer1 {
+            width: 1050px;
+            height: 636.83px;
+            margin-top: 36px;
+            margin-left: 145px;
+            
+            display: flex;
+            flex-direction: row;
+        }
+        .tevtxt {
+            width: 563.5px;
+            height: 287.19px;
+            margin-top: 192.81px;
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .ttxt {
+            width: 343px;
+            height: 58px;
+            margin-top: -2.27px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 58px;
+            line-height: 57.6px;
+            letter-spacing: 0%;
+            color: rgba(0, 0, 0, 1);
+        }
+        .etxt {
+            width: 547px;
+            height: 62px;
+            margin-top: 40px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30.6px;
+            letter-spacing: 0%;
+            color: rgba(0, 0, 0, 1);
+        }
+        .ttu3 {
+            width: 140px;
+            height: 50px;
+           
+            background: rgba(247, 178, 183, 1);
+            color: rgba(0, 0, 0, 1);
+            border: none;
+            border-radius: 100px;
+             font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 18px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-top:  79px;
+          
+             text-decoration: none;
+
+
+        }
+        .photol {
+            width: 483px;
+            height: 451px;
+            margin-left: 103.5px;
+            margin-top: 107.55px;
+        }
+        .rts {
+            width: 1150px;
+            height: 283px;
+            margin-top: 107.72px;
+            margin-left: 145px;
+            background: rgba(139, 212, 214, 1);
+            display: flex;
+            flex-direction: row;
+        }
+        .rs {
+            width: 810.81px;
+            height: 103px;
+            margin-top: 90.28px;
+            margin-left: 90px;
+            display: flex;
+            flex-direction: column;
+        }
+        .tstxt {
+            width: 615px;
+            height: 56px;
+            margin-top: -1.28px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 46px;
+            line-height: 55.8px;
+            letter-spacing: 0%;
+            color: rgba(0, 0, 0, 1);
+        }
+        .sta {
+            width: 234px;
+            height: 31px;
+            margin-top: 18px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30.6px;
+            letter-spacing: 0%;
+            color: rgba(0, 0, 0, 1);
+        }
+        .ttu4 {
+            width: 159px;
+            height: 50px;
+           
+            background: rgba(0, 0, 0, 1);
+            color: #ffff;
+            border: none;
+            border-radius: 100px;
+             font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 18px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-top:  117px;
+         
+             text-decoration: none;
+        }
+        .footer0 {
+             max-width: 100%;
+            height: 705px;
+            background: rgba(48, 46, 63, 1);
+            margin-top: 105px;
+        }
+        .ahs {
+            width: 1150px;
+            height: 705px;
+            margin-left: 145px;
+            margin-top: 45px;
+            
+           
+        }
+        .aynf {
+            width: 1150px;
+            margin-top: 45px;
+            
+            display: flex;
+            flex-direction: row;
+        }
+        .alogo {
+            width: 49.83px;
+            height: 49.95px;
+            margin-top: 45.5px;
+            margin-left: 0.07px;
+        }
+        .yournew {
+            width: 290px;
+            height: 36px;
+            margin-top: 54px;
+            margin-left: 18px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 28px;
+             line-height: 36px;
+             letter-spacing: 0%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+            
+             color: rgba(255, 255, 255, 1);
+        }
+        .help {
+            width: 1150px;
+            height: 200.39px;
+            margin-top: 45px;
+            display: flex;
+            flex-direction: row;
+            gap: 36px;
+          
+
+        }
+        .t1 {
+            width: 204.8px;
+            height: 164.39px;
+           
+        }
+        .t2 {
+            width: 204.8px;
+            height: 164.39px;
+           
+        }
+        .t3 {
+            width: 204.8px;
+            height: 164.39px;
+          
+        }
+        .t4 {
+            width: 204.8px;
+            height: 164.39px;
+           
+        }
+        .t5 {
+            width: 204.8px;
+            height: 164.39px;
+        }
+           
+        .hiw {
+            width: 109px;
+            height: 26px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 18px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             color: rgba(255, 255, 255, 1);
+        }
+        .hs {
+            width: 163px;
+            height: 17px;
+            margin-top: 12px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 16px;
+             line-height: 16.2px;
+             letter-spacing: 0%;
+             color: rgba(197, 233, 234, 1);
+        }
+        .wwd {
+            width: 98px;
+            height: 26px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 18px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             color: rgba(255, 255, 255, 1);
+            
+             
+        }
+        .ftr {
+            margin-top: 12px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 16px;
+             line-height: 16.2px;
+             letter-spacing: 0%;
+             color: rgba(197, 233, 234, 1);
+        }
+        .wwh {
+             width: 107px;
+            height: 26px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 18px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             color: rgba(255, 255, 255, 1);
+             
+        }
+        .ssm {
+             margin-top: 12px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 16px;
+             line-height: 16.2px;
+             letter-spacing: 0%;
+             color: rgba(197, 233, 234, 1);
+        }
+        .rsc {
+             width: 89px;
+            height: 26px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 18px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             color: rgba(255, 255, 255, 1);
+        }
+        .cbg {
+            margin-top: 12px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 16px;
+             line-height: 16.2px;
+             letter-spacing: 0%;
+             color: rgba(197, 233, 234, 1);
+        }
+        .cmp {
+            width: 81px;
+            height: 26px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 18px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             color: rgba(255, 255, 255, 1);
+
+        }
+        .acc {
+            margin-top: 12px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 16px;
+             line-height: 16.2px;
+             letter-spacing: 0%;
+             color: rgba(197, 233, 234, 1);
+        }
+        .stu {
+            width: 1150px;
+            height: 129.39px;
+           
+            display: flex;
+            flex-direction: column;
+            margin-top: 36px;
+        }
+        .uts {
+            width: 99px;
+            height: 26px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 700;
+             font-size: 18px;
+             line-height: 25.2px;
+             letter-spacing: 0%;
+             color: rgba(255, 255, 255, 1);
+
+
+        }
+        .crp {
+            margin-top: 12px;
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 16px;
+             line-height: 16.2px;
+             letter-spacing: 0%;
+             color: rgba(197, 233, 234, 1);
+        }
+        .footermenu {
+            width: 1150px;
+            height: 21px;
+            margin-top: 54px;
+            
+            display: flex;
+            flex-direction: row;
+        }
+        .menu2 {
+            width: 554px;
+            height: 21px;
+            display: flex;
+            flex-direction: row;
+            gap: 27px;
+        }
+        .ac {
+            font-family: "Roboto", sans-serif;
+             font-weight: 400;
+             font-size: 16px;
+             line-height: 21.6px;
+             letter-spacing: 0%;
+             color: rgba(197, 233, 234, 1);
+        }
+        .cool {
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: flex-end;
+            margin-left: 526px;
+            margin-top: -50px;
+        }
+      
+        
+      
+
+
+    </style>
+    <header class="header">
+        
+        <div class="logo">
+            <img src="./Fill 33.png" alt="" class="logo1">
+            <p class="logotext">Accountancy <br>Cloud</p>
+        </div>
+    <div class="menu">
+        <a class="menu" href="#">Home</a>
+        <a class="menu" href="#">How it works</a>
+        <a class="menu" href="#">What we do</a>
+        <a class="menu" href="#">Who we help</a>
+        <a class="menu" href="#">Resources</a>
+    </div>
+    <div class="login">
+        <a class="login1" href="#">Login</a>
+        <a class="expert" href="#">Talk to an Export</a>
+    </div>
+    </header>
+    <section class="section">
+        <div class="information">
+            <h2 class="btext">Get your finances right</h2>
+            <p class="ktext">Get your finances right with Accountancy Cloud. We offer the best accounting, R&D credits and CFO services for ambitious businesses who want to grow.</p>
+            <div class="nav">
+                <h3 class="ntext">Switching to us is simple</h3>
+                <a class="ttu" href="#">Talk to us</a>
+            </div>
+        </div>
+        <img src="./Rectangle.png" alt="" class="photo1">
+
+    </section>
+    <section class="section2">
+        <img src="./Rectangle (1).png" alt="" class="photo2">
+        <div class="information2">
+            <h2 class="btext2">The best finance stack for entrepreneurs</h2>
+            <p class="ktext2">70% of companies switch to us from their DIY or legacy system. Now, get your bookkeeping, tax prep and CFO problems, solved. Complete our<span class="underline">contact form</span>,and find out why 9 out of 10 customers recommend us.</p>
+
+
+
+        </div>
+        
+        </div>
+
+    </section>
+    <section class="section3">
+        <h2 class="btext3">Why Switch?</h2>
+        <div class="content">
+            <div class="content1">
+                <img src="./Rectangle (2).png" alt="" class="photo3">
+                <h5 class="btext4">Powerful Software</h5>
+                <p class="ktext3">Included in our service, each customer gets in-house software to access live <span class="underline2">financial dashboards</span> and real-time management reports.</p>
+            </div>
+            <div class="content2">
+                <img src="./Rectangle (3).png" alt="" class="photo4">
+                <h5 class="btext5">Track cashflow</h5>
+                <p class="ktext4">Stay on top of your working capital, <span class="underline">taxes</span> , and cashflow, to ensure your business is performing at its best.</p>
+            </div>
+            <div class="content3">
+                <img src="./Rectangle (4).png" alt="" class="photo5">
+                <h5 class="btext6">Award winning support</h5>
+                <p class="ktext5">Expect the best from us. Get a dedicated finance team that will handle all your accounting, R&D credits and CFO needs.</p>
+            </div>
+        </div>
+       <a href="#" class="ttu2">Diccover what we do</a>
+        
+
+    </section>
+
+
+<div class="glav">
+    <section class="section4">
+        <h2 class="btext7">Plans built for growth</h2>
+    <div class="inform">
+        <div class="content4">
+             <img src="./Rectangle (5).png" alt="" class="photo6">
+             <h5 class="btext8">Early stage startup</h5>
+             <p class="ktext6">Need your accounting system set up? Learn financial best practice and prime your business for the next stage of growth. We get you moving quickly with an accounting solution that does what you need.</p>
+        </div>
+       
+        <div class="content5">
+            <img src="./Rectangle (6).png" alt="" class="photo7">
+            <h5 class="btext9">Scale up</h5>
+            <p class="ktext7">Spend less time worrying about your finances and more time shaping your company’s future. Get your bookkeeping, R&D credits and CFO problems, solved.</p>
+        </div>
+        <div class="content6">
+            <img src="./Rectangle (7).png" alt="" class="photo8">
+            <h5 class="btext10">High growth</h5>
+            <p class="ktext8">Gain the financial accuracy, visibility, and real-time analysis you need to make smarter decisions, drive efficiency, and achieve total organizational alignment.</p>
+        </div> 
+    </div>
+    </section>
+    <footer class="footer">
+        <p class="infotext">Join 200+ amazing companies</p>
+        <div class="logos">
+            
+                <img src="./Frame.png" alt="" class="logophoto">
+                <img src="./Frame (1).png" alt="" class="logophoto">
+                <img src="./Frame (2).png" alt="" class="logophoto">
+                <img src="./Frame (3).png" alt="" class="logophoto">
+                <img src="./Frame (4).png" alt="" class="logophoto">
+                <img src="./Frame (5).png" alt="" class="logophoto">
+                <img src="./Frame (6).png" alt="" class="logophoto">
+                <img src="./Frame (7).png" alt="" class="logophoto">
+                <img src="./Frame (8).png" alt="" class="logophoto">
+           
+        </div>
+    </footer>
+    <footer class="footer1">
+        
+        <div class="tevtxt">
+            <h2 class="ttxt">The AC Hub</h2>
+            <p class="etxt">Explore our dedicated online resources. We've got the tips, tricks and online accounting know-how for business success.</p>
+            <a href="#" class="ttu3">View Hub</a>
+        </div>
+        <img src="./Rectangle (9).png" alt="" class="photol">
+    </footer>
+    <footer class="rts">
+        <div class="rs">
+            <h2 class="tstxt">Ready to Switch? It's simple.</h2>
+            <p class="sta">Speak to an expert today</p>
+            
+        </div>
+        <a href="" class="ttu4">Get Started</a>
+    </footer>
+
+
+
+    <footer class="footer0">
+        <div class="ahs">
+            <div class="aynf">
+                <img src="./vkrgdefifk Fill 1.png" alt="" class="alogo">
+                <h5 class="yournew">Your new finance team</h5>
+            </div>
+            <div class="help">
+                <div class="t1">
+                    <h6 class="hiw">How it works</h6>
+                    <p class="hs">Hassle Free Switching</p>
+                </div>
+                <div class="t2">
+                    <h6 class="wwd">What we do</h6>
+                    <p class="ftr">Finance Teams <br> Tax <br> R&D Tax Credits <br> A platform for success <br> Software Integrations</p>
+                </div>
+                <div class="t3">
+                    <h5 class="wwh">Who we help</h5>
+                    <p class="ssm">Startups <br> Small Business <br> Medium Business <br> CFO & Head of Finance</p>
+                </div>
+                <div class="t4">
+                    <h6 class="rsc">Resources</h6>
+                    <p class="cbg">Case Studies <br> Blogs <br> Guides <br> Podcasts</p>
+                </div>
+                <div class="t5">
+                    <h6 class="cmp">Company</h6>
+                    <p class="acc">About Us <br> Careers <br> Contact Us</p>
+                </div>
+            </div>
+            <div class="stu">
+                <h6 class="uts">Speak to us</h6>
+                <p class="crp">
+                    Call 020 4530 8432 <br>
+                    Refer a friend for £175 <br>
+                    Partner with us 
+                </p>
+            </div>
+            <div class="footermenu">
+                <div class="menu2">
+                    <p class="ac">© Accountancy Cloud 2021</p>
+                    <p class="ac">Privacy Policy & Cookies</p>
+                    <p class="ac">Terms of Service</p>
+                </div>
+                <img src="./Frame (9).png" alt="" class="cool">
+            </div>
+        </div>
+        
+    </footer>
+
+
+    
+
+    
+    
+</body>
+</html>
